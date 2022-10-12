@@ -12,7 +12,7 @@ let package = Package(
   ],
   dependencies: [
     .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "6.0.0")),
-    .package(url: "https://github.com/2222min/RxExpect.git", .branch(from: "master")),
+    .package(url: "https://github.com/2222min/RxExpect.git", .branch("master")),
   ],
   targets: [
     .target(name: "RxViewController", dependencies: ["RxSwift", "RxCocoa"]),
